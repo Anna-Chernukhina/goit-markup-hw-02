@@ -1,3 +1,13 @@
+:root {
+    --navy-blue: #2E2F42;
+    --slate: #434455;
+    --white: #FFFFFF;
+    --iris: #4D5AE5;
+    --cloud: #F4F4FD;
+    --ocean: #404BBF;
+}
+
 body {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: var(--navy-blue);
 }
