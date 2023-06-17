@@ -1,13 +1,87 @@
 :root {
-    --navy-blue: #2E2F42;
-    --slate: #434455;
-    --white: #FFFFFF;
-    --iris: #4D5AE5;
-    --cloud: #F4F4FD;
-    --ocean: #404BBF;
+    --primary-brand: #4D5AE5;
+    /*iris*/
+    --pressed-state: #404BBF;
+    /*ocean*/
+    --dark: #2E2F42;
+    /*navy-blue*/
+    --success: #31D0AA;
+    /*green*/
+    --text-color: #434455;
+    /*slate*/
+    --subtle-text-color: #8E8F99;
+    /*light slate*/
+    --accent-color: #E7E9FC;
+    /*cornflower*/
+    --light: #F4F4FD;
+    /*cloud*/
+    --modal-overlay: #2E2F42;
+    /*navy blue modal*/
+    --Hero-background: #2E2F42;
+    /*grey*/
+    --white-background: #FFFFFF;
+    /*white*/
+    --modal-background: #FCFCFC;
+    /*dairy*/
+
+    --main-font: 'Roboto',
+        sans-serif;
+    --accent-font: 'Raleway', sans-serif;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--navy-blue);
+    color: var(--dark);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*----Header----*/
+.header-logo {
+    font-family: var(--main-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    color: var(--dark);
+}
+
+.header-logo-accent {
+    font-family: var(--accent-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-brand);
+}
+
+.header-nav-list {
+    font-family: var(--main-font);
+    font-weight: 500;
+    color: var(--dark);
+}
+
+.header-nav-link {
+    color: var(--dark);
+}
+
+.header-nav-link:active {
+    color: var(--pressed-state);
+}
+
+.header-address-mail,
+.header-address-phone {
+    color: var(--text-color);
+    font-weight: 400;
+    font-style: normal;
 }
