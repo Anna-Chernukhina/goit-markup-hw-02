@@ -24,8 +24,7 @@
     --modal-background: #FCFCFC;
     /*dairy*/
 
-    --main-font: 'Roboto',
-        sans-serif;
+    --main-font: 'Roboto', sans-serif;
     --accent-font: 'Raleway', sans-serif;
 }
 
@@ -84,15 +83,16 @@ a {
 
 .header-nav-link:active,
 .header-address-mail:active,
-.header-address-phone:active {
+.header-address-phone:active,
+.header-nav-link:hover,
+.header-address-mail:hover,
+.header-address-phone:hover {
     color: var(--pressed-state);
 }
 
 .header-address-mail,
 .header-address-phone {
     color: var(--text-color);
-    font-weight: 400;
-    font-style: normal;
 }
 
 /*----Main section----*/
@@ -145,7 +145,6 @@ a {
 }
 
 .principles-text {
-    font-weight: 400;
     color: var(--text-color);
 }
 
