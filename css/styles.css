@@ -87,7 +87,7 @@ body {
 }
 
 .header-address {
-    font-stretch: normal;
+    font-style: normal;
 }
 
 .header-address-mail,
@@ -95,7 +95,7 @@ body {
     color: var(--text-color);
 }
 
-/*----Main section----*/
+/*----1 Main section----*/
 .main-section {
     background-color: var(--dark);
 }
@@ -126,7 +126,7 @@ body {
     cursor: pointer;
 }
 
-/*----Section principles----*/
+/*----2 Section principles----*/
 .principles {
     background-color: var(--white-background);
 }
@@ -146,7 +146,7 @@ body {
     color: var(--text-color);
 }
 
-/*----Products section----*/
+/*----3 Products section----*/
 .products {
     background-color: var(--white-background);
 }
@@ -156,10 +156,12 @@ body {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--dark);
 }
 
-/*----Our team section----*/
+/*----4 Our team section----*/
 .team-section {
     background-color: var(--light);
 }
@@ -171,6 +173,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    color: var(--dark);
 }
 
 .team-list-item {
@@ -182,6 +185,8 @@ body {
     font-size: 20px;
     line-height: 1.2;
     text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--dark);
 }
 
 .position {
@@ -216,6 +221,8 @@ body {
 /* filters section */
 .filter-button {
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
     text-align: center;
     letter-spacing: 0.04em;
     color: var(--primary-brand);
