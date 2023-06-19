@@ -15,10 +15,6 @@
     /*cornflower*/
     --light: #F4F4FD;
     /*cloud*/
-    --modal-overlay: #2E2F42;
-    /*navy blue modal*/
-    --Hero-background: #2E2F42;
-    /*grey*/
     --white-background: #FFFFFF;
     /*white*/
     --modal-background: #FCFCFC;
@@ -77,12 +73,9 @@ body {
 .header-nav-link:active,
 .header-nav-link:hover,
 .header-nav-link:focus,
-.header-address-mail:active,
-.header-address-mail:hover,
-.header-address-mail:focus,
-.header-address-phone:active,
-.header-address-phone:hover,
-.header-address-phone:focus {
+.header-address-list-item:active,
+.header-address-list-item:hover,
+.header-address-list-item:focus {
     color: var(--pressed-state);
 }
 
@@ -90,8 +83,7 @@ body {
     font-style: normal;
 }
 
-.header-address-mail,
-.header-address-phone {
+.header-address-list-item {
     color: var(--text-color);
 }
 
@@ -118,9 +110,11 @@ body {
     font-weight: 500;
     letter-spacing: 0.04em;
     color: var(--white-background);
+    cursor: pointer;
 }
 
 .main-section-button:hover,
+.main-section-button:focus,
 .main-section-button:active {
     background: var(--pressed-state);
     cursor: pointer;
@@ -140,6 +134,8 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark);
 }
 
 .principles-text {
@@ -220,6 +216,7 @@ body {
 /* ----Portfolio.html---- */
 /* filters section */
 .filter-button {
+    font-family: var(--main-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -232,6 +229,7 @@ body {
 }
 
 .filter-button:active,
+.filter-button:hover,
 .filter-button:focus {
     background: var(--pressed-state);
     color: var(--white-background);
@@ -242,9 +240,14 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark);
 }
 
 .product-type {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--text-color);
 }
 
